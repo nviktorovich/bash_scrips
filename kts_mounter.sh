@@ -9,6 +9,10 @@
 # В моем случае такой интерфейс имеет IP адресс, который заканчивается на 200.
 # Поиск необходимого интерфейса среди прочих осуществляется с использованием регулярных выражений.
 
+# Для корректной работы скрипта, необходимо установить пакеты:
+# sudo apt install nfs-common
+# sudo apt install cifs-utils
+
 # Для более удобной работы рекомендуется создать alias, в файле ~/.bashrc прописать строки:
 # alias ktsmount='sudo ~/Documents/scripts_bash/kts_mounter.sh'
 # alias mktsmount='sudo ~/Documents/scripts_bash/kts_mounter.sh -m'
